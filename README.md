@@ -7,7 +7,7 @@ If you're unfamiliar with version control systems, especially Git, please consul
   a.	Be sure to check that the environment variables are set properly.
 
 2.	[Install Spark](https://spark.apache.org/downloads.html)  
-  a.	Select version 3.5.0 with Hadoop 3.3.  
+  a.	Select version 3.5.4 with Hadoop 3.3.  
   b.	After the installation, you may need to set the environment variables properly.  
   c.	To test whether or not everything runs, open a terminal and type `spark-shell`. Now that you are in the Scala interpreter, you can execute Scala code here. For example, you can try `println(“Hello World!”)`. You can exit the shell by typing `:q`.  
   d.	Tip: In the Spark shell, you can test segments of Scala codes before you write them in the file. It's a very convenient way to learn Scala and Spark.   
@@ -83,6 +83,9 @@ Let's look at an example of the mining process to clarify. Say we hash the strin
 
 Your mission (and yes, you have to accept it) is to run **project_1** with Spark to determine the nonce for varying difficulties of `k` with one of the following strings:
 ```
+// If you're working in a group of three
+this_is_a_bitcoin_block_of_yourEagleId1_and_yourEagleId2_and_yourEagleId3
+
 // If you're working in a pair
 this_is_a_bitcoin_block_of_yourEagleId1_and_yourEagleId2
 
