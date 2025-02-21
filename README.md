@@ -74,6 +74,9 @@ Let's look at an example of the mining process to clarify. Say we hash the strin
 
 Your mission (and yes, you have to accept it) is to run **project_1** with Spark to determine the nonce for varying difficulties of `k` with one of the following strings:
 ```
+// If you're working in a group of three
+this_is_a_bitcoin_block_of_yourEagleId1_and_yourEagleId2_and_yourEagleId3
+
 // If you're working in a pair
 this_is_a_bitcoin_block_of_yourEagleId1_and_yourEagleId2
 
