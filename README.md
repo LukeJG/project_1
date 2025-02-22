@@ -53,7 +53,7 @@ Usage: project_1 string difficulty #trials
   b. Navigate to **Billing**.  
   c. Select **bc.edu** as your organization and open the **Billing Account for Education** account.  
   d. On the overview page for this billing account, there's a **Promotional credits** box towards the bottom right of the page. The balance should be $50.  
-5. Use your credits judiciously. Creating large clusters, using complex features like Jupyter Notebook, or forgetting to terminate clusters after use are some activities that quickly consume credits. While you have $50 in credit, you shouldn't expect to use more than $10 for the course.  
+5. Use your credits judiciously. Creating large clusters, using complex features like Jupyter Notebook, or forgetting to terminate clusters after use are some activities that quickly consume credits. While you have $50 in credit, you shouldn't expect to use more than $20 for the course.  
 
 ## Creating a GCP project
 1. Select the **bc.edu** organization name in the top bar and then the **New Project** button in the top right corner of that menu.  
