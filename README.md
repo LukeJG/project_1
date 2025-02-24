@@ -21,8 +21,8 @@ If you're unfamiliar with version control systems, especially Git, please consul
 1. Create the SPARK_HOME and HADOOP_HOME environment variables and set their values to the address of the folder with the other components of Spark in it (i.e. this folder should have the bin, conf, and data folders, among others).
 2. JAVA_HOME needs to be set to the jre folder of the Java version you downloaded. It is usually found in C:/Program Files/Java.
 3. PATH needs to be updated to include the address of the bin folder of the Spark install (i.e., the bin folder in the folder from step 2).
-4. For Windows machines, you also need to download winutils.exe. Do so from this GitHub directory: https://github.com/kontext-tech/winutils/tree/master/hadoop-3.3.0/bin
-5. Move winutils.exe into the bin folder of the Spark install.
+4. For Windows machines, you also need to download hadoop.dll and winutils.exe. Do so from this GitHub directory: https://github.com/kontext-tech/winutils/tree/master/hadoop-3.3.0/bin
+5. Move hadoop.dll and winutils.exe into the bin folder of the Spark install.
 6. For some reason, Windows machines seem to require the installing terminal work to be done in Command Prompt, instead of a VM or in Git Bash. If you are encountering difficulties, try doing all the installation work in Command Prompt. For both Windows and Mac, after installing SBT, you also need to update PATH to include the sbt folder. It is usually found in Program Files (x86).
   
 ## Cloning the project_1 repository
