@@ -5,11 +5,15 @@ Input: this_is_a_bitcoin_block_of_31871610_and_25823070
 
 Question 1: 
 k = 2, n = 100: 
+
 xS = 007d63460b271b83827b9e03a8f372bfc4caee046bfbe17c04f43e61711eaea6
+
 Time Elapsed = 5 seconds
 
 k = 3, n = 100:
+
 xS = 0002b34ee0ff883a2689e7067a163d1e2c3d0e82c13a500e47a2857af7b393c2
+
 Time Elapsed = 5 seconds
 
 k = 4, n = 20,000:
